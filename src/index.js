@@ -6,6 +6,7 @@ import { BrowserRouter ,Routes,Route } from 'react-router-dom';
 import Catalog from './page/Catalog/Catalog';
 import Page from './page/Page';
 import Popup from './page/popup/Popup';
+import '../src/firebase.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

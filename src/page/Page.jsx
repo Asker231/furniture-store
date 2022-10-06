@@ -1,20 +1,33 @@
 import React, { useEffect, useState } from 'react'
 import {useParams}  from 'react-router-dom';
-import { cardData } from './Catalog/card.props';
+//import { cardData } from './Catalog/card.props';
 import style from './page.module.css';
 import {Link} from 'react-router-dom'
 import Button  from '@mui/material/Button';
-import { height } from '@mui/system';
+import {onValue,ref,} from 'firebase/database';
+import {db} from '../firebase.js';
+
+
 const Page = () => {
     const[pops,setPops] = useState(false);
-    const [data,setData] = useState([]);
     const {id} = useParams();
+    const[todos,setTodos] = useState([]);
 
-    useEffect(()=>{
-        setData(cardData)
-    },[data])
-  const d = data.filter((el)=>{
-   return el.id ==id
+  useEffect(()=>{
+    onValue(ref(db),(snapshot)=>{
+     setTodos([])
+      const data = snapshot.val();
+      if(data!== null){
+       Object.values(data).map((todo)=>{
+         setTodos((old) =>[...old,todo]);
+       })
+      }
+    })
+   },[])
+
+    
+  const d = todos.filter((el)=>{
+   return el.id == id
 })
 console.log(d);
   return (
