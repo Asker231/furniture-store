@@ -13,7 +13,7 @@
 .header>.wrap>select{
     display: none;
 }
-.header>.wrap>.phone{
+.header>.wrap>a>.phone{
     display: none;
 }
 @media (max-width:426px) {
@@ -40,7 +40,7 @@
           display: block;
           cursor: pointer;
       }
-      .header>.wrap>.phone{
+      .header>.wrap>a>.phone{
         display: block;
     }
 }

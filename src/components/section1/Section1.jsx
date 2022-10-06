@@ -1,6 +1,8 @@
 import React from 'react'
 import style from './section1.module.css';
 import image from './10000_Post01.jpg'
+import {Link} from 'react-router-dom'
+
 
 const Section1 = () => {
   return (
@@ -11,7 +13,7 @@ const Section1 = () => {
         </div>
         <h1><span>Л</span>УЧШАЯ ЖИЗНЬ,<br/>
           СОЗДАННАЯ ДЛЯ ВАС!</h1>
-          <a>перейти в каталог</a>
+          <Link to='/Catalog'>перейти в каталог</Link>
     </div>
   )
 }

@@ -14,11 +14,14 @@ const Catalog = () => {
          <div className={style.catalogList}>
              {
                 cardData.map((el)=>{
-                    return <CardSlide
-                    url={el.url}
-                    title={el.title}
-                    price={el.price}
-                    />
+                    return <Link to={`/Catalog/${el.id}`}>
+                     <CardSlide
+                      url={el.url}
+                      title={el.title}
+                      price={el.price}
+                     />
+                    </Link>
+                   
                 })
              }
          </div>

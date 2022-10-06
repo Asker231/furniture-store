@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import { BrowserRouter ,Routes,Route } from 'react-router-dom';
 import Catalog from './page/Catalog/Catalog';
+import Page from './page/Page';
+import Popup from './page/popup/Popup';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +15,8 @@ root.render(
     <Routes>
       <Route path='/' element={<App />}/>
       <Route path='/Catalog' element={<Catalog/>}/> 
+      <Route path='/Catalog/:id' element={<Page/>}/>
+      <Route path='/popup' element={<Popup/>}/>
     </Routes>
        
     </BrowserRouter>

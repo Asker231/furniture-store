@@ -5,7 +5,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import logo from './telegram-cloud-document-2-5233443011957888024 1.png';
 import NavMobile from './navMobile/NavMobile';
+import {Link} from 'react-router-dom'
+
 const Header = () => {
+
   const[openmenu,setOpenmenu] = useState(false);
   const handleOpen=()=>{
     setOpenmenu(!openmenu)
@@ -20,7 +23,7 @@ const Header = () => {
             <option>En</option>
             <option>UA</option>
         </select>
-        <LocalPhoneIcon className={style.phone}/>
+      <Link to='/popup'><LocalPhoneIcon className={style.phone}/></Link>  
         <MenuIcon onClick={()=>setOpenmenu(!openmenu)} className={style.burger}/>
         {
           openmenu?<NavMobile cb={handleOpen}/>:null
