@@ -1,0 +1,27 @@
+.navmobile{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    z-index: 100;
+    padding: 28px 13px;
+    max-width: 60%;
+    position: absolute;
+    height: 100vh;
+    top: 0px;
+    right: 0px;
+}.navmobile>a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+.navmobile>span{
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
