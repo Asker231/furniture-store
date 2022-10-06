@@ -25,3 +25,8 @@
     display: flex;
     align-items: center;
 }
+@media (max-width:426px) {
+     .form{
+        max-width: 70%;
+     }
+}
