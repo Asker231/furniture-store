@@ -1,9 +1,9 @@
 export const cardData =[
-   {url:'http://komfort-m30.ru/files/products/150-2-divan-uglovoj-vostorg-1-kreslo.800x600.jpg',title:'ALPINA',price:'24,222p'},
-   {url:'http://komfort-m30.ru/files/products/150-1-divan-vostorg-2-kr.krovat.800x600.jpg',title:'EXPO',price:'40,000p'},
-   {url:'https://karpov-kmv.ru/wp-content/uploads/2019/04/%D0%94%D0%98%D0%92%D0%90%D0%9D-%D0%A3%D0%93%D0%9B%D0%9E%D0%92%D0%9E%D0%99-%D0%9A%D0%90%D0%A1%D0%90%D0%91%D0%9B%D0%90%D0%9D%D0%9A%D0%90.jpg',title:'DESA',price:'56,000p'},
-   {url:'http://гармар.рф/wp-content/uploads/2017/04/%D1%81%D1%83%D0%BB%D1%82%D0%B0%D0%BD4.jpg',title:'DIANA',price:'45,000p'},
-   {url:'https://www.belfan.ru/upload/resize_cache/iblock/2e9/570_388_1/Grey_interer_02.jpg',title:'ELZA',price:'34,000p'},
-   {url:'https://mebelstyle-office.com/upload/resize_cache/uf/bc6/937_528_2/bc6030caba6f23480c18db2deb2bc6ea.jpg',title:'DEBA',price:'132,000p'},
+   {url:'http://komfort-m30.ru/files/products/150-2-divan-uglovoj-vostorg-1-kreslo.800x600.jpg',title:'Угловые Диваны',price:'24,222p'},
+   {url:'https://s3.lm-cdn.ru/photo/stulya/dlya_kuhni/na_metallokarkase/stul_na_metallokarkase_vener_wine_red_black/stul_na_metallokarkase_vener_wine_red_black_1994_1320_1_0_4078440.webp',title:'Стулья',price:'40,000p'},
+   {url:'https://cdn2.divan.ru/img/v1/_gOe2J8mGBo2YA7PB24broOtFoMSMxj4lTOpQBDETSU/pd:0:0:0:0/rs:fill:1268:840:1:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQzNjUwMzYuanBn.jpg',title:'Кресла',price:'56,000p'},
+   {url:'https://cdn2.divan.ru/img/v1/3seQIM2kxjQ7hIcHLTqW5Be-UqSy8WlIvRL4qdxLol4/t:0::0:0/pd:123:160:123:160/rs:fit:948:594:0:1:ce:0:0/g:ce:0:0/bg:f5f3f1/q:85/czM6Ly9kaXZhbi9wcm9kdWN0LzQxODMwODUucG5n.jpg',title:'Пуфы',price:'45,000p'},
+   {url:'https://www.moon-trade.ru/upload/1594038625-1223__74-48_.jpg',title:'Кровати',price:'34,000p'},
+   {url:'https://sarmamebel.ru/upload/iblock/a54/zgv301afx9dmin9ha9cnsncl58zuxca1/Fly.png',title:'Матрацы',price:'132,000p'},
 
 ];
