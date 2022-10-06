@@ -1,4 +1,4 @@
-import NavMobile from './components/header/navMobile/NavMobile';
+
 import './App.css';
 import Header from './components/header/Header';
 import Section1 from './components/section1/Section1';

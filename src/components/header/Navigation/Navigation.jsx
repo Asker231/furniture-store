@@ -1,13 +1,14 @@
 import React from 'react'
 import style from './nav.module.css';
 import logo from '../telegram-cloud-document-2-5233443011957888024 1.png';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
   return (
     <div className={style.nav}>
-        <a href='#'>каталог
+        <a>каталог
         <div className={style.subnav}>
-           <a href='#'>Диваны </a>
+           <Link to='/Catalog'>Диваны </Link>
            <a href='#'>Кресла </a>
            <a href='#'>Стулья </a>
            <a href='#'>Кровати </a>

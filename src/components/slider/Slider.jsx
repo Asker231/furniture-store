@@ -2,7 +2,7 @@ import React from 'react'
 import CardSlide from './cardslide/CardSlide';
 import style from './slider.module.css';
 import {cardData} from './cardslide/card.props.js'
-
+import { Link } from 'react-router-dom';
 const Slider = () => {
   return (
     <div className={style.slider}> 
@@ -20,7 +20,7 @@ const Slider = () => {
         </div>
           
 
-        <a>перейти в каталог</a>
+        <Link to='/Catalog'>перейти в каталог</Link>
     </div>
   )
 }
