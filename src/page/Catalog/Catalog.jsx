@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import {onValue,ref,} from 'firebase/database';
 import {db} from '../../firebase.js';
+
 import { useState,useEffect } from 'react';
+import Search from '../../components/search/Search';
 
 const Catalog = () => {
   const[todos,setTodos] = useState([])
@@ -23,10 +25,12 @@ const Catalog = () => {
    },[])
   return (
     <div className={style.catalog}>
+          <Search/>
          <div className={style.back}>
 
          <Link to='/'> <ArrowBackIcon/>назад</Link>
          </div>
+     
          <div className={style.catalogList}>
              {
                 todos.map((el,key)=>{
