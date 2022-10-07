@@ -28,5 +28,6 @@
 @media (max-width:426px) {
      .form{
         max-width: 80%;
+        top: 140px;
      }
 }

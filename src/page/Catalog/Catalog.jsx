@@ -27,7 +27,6 @@ const Catalog = () => {
     <div className={style.catalog}>
           <Search/>
          <div className={style.back}>
-
          <Link to='/'> <ArrowBackIcon/>назад</Link>
          </div>
      
