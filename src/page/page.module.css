@@ -4,25 +4,29 @@
 }
 .cardinfo{
     position: relative;
-    top: 40px;
+    height: 100vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 80%;
+    width: 100%;
     padding: 20px;
     align-items: flex-start;
      -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
     box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);;
 }.cardinfo>img{
-    max-width: 80%;
+    max-width: 30%;
 }
 .cardinfo>.p{
     height: 58px;
     overflow: hidden;
     transition: 2s;
-  
+}
+@media (max-width:426px) {
+    .cardinfo>img{
+        max-width: 90%;
+    }
 }
 .h{
 
