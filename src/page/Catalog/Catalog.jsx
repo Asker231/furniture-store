@@ -18,7 +18,7 @@ const Catalog = () => {
       const data = snapshot.val();
       if(data!== null){
        Object.values(data).map((todo)=>{
-         setTodos((old) =>[...old,todo]);
+        return  setTodos((old) =>[...old,todo]);
        })
       }
     })
