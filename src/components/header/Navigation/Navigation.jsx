@@ -6,18 +6,7 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
   return (
     <div className={style.nav}>
-        <a>каталог
-        <div className={style.subnav}>
-           <Link to='/Catalog'>Диваны </Link>
-           <a href='#'>Кресла </a>
-           <a href='#'>Стулья </a>
-           <a href='#'>Кровати </a>
-           <a href='#'>Матрацы </a>
-           <a href='#'>Пуфы </a>
-           <a href='#'>Эксклюзивная мебель</a>
-           <a href='#'>2D-3D модели</a>
-        </div>
-        </a>
+         <Link to='/Catalog'>Каталог</Link>
         <a href='#'>индивидуальная мебель</a> 
         <a href='#'>контакты</a>
         <img src={logo} alt='logo'/>

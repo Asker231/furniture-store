@@ -10,6 +10,7 @@ const Search = ({func}) => {
           id="outlined-search"
           label="Search"
           type="search"
+          value={func}
           onChange={(e)=>func(e.target.value)}  
             />
          
