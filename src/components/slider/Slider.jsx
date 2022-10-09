@@ -13,7 +13,7 @@ const Slider = () => {
                 return <CardSlide
                 url={el.url}
                 title={el.title}
-                price={el.price}
+               
                 />
             })
           }
