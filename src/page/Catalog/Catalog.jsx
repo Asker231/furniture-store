@@ -37,7 +37,7 @@ const Catalog = () => {
       </div>
       <div className={style.catalogList}>
         {
-          todos.filter((el) => el.title.toLowerCase().includes(query))
+          todos.filter((el) => el.title.toUpperCase().includes(query))
           .map((el, key) => {
             return <Link key={el.id} to={`/Catalog/${el.id}`}>
               <CardSlide
